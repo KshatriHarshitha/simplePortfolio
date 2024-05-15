@@ -4,10 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/minireset.min.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/animations.css">
 </head>
 <body>
-    
+    <div class="wallpaper" id="wallpaper" data-image="bg.jpg"></div>
+    <div class="content">
+        <aside class="side">
+            <figure class="picture">
+                <div class="pic-shadow"></div>
+                <img src="web.webp" id="pictureImage" class="picture-image"  alt="Portrait of web Developer" width="320" height="320">
+            </figure>
+        </aside>
+        <main class="about">
+            <h1 class="name">Hi, I'm Harshitha Kshatri</h1>
+            <p class="jod">Web Developer</p>
+            <hr class="hr">
+            <div class="description">
+                <p>Passionate fresher in web development eager to contribute innovative solutions and learn from experienced professionals. Ready to tackle challenges and make a meaningful impact in the digital world.</p>
+            </div>
+            <div class="contact">
+                <a href="mailto:kshatriharshitha@gmail.com" target="_blank" class="button">Get in touch</a>
+                  <ul class="social">
+                   <li><a>
+                   <i  class="fab fa-twitter"></i>
+                   </a></li>
+                   <li><a>
+                     <i class="fab fa-github"></i>
+                   </a></li>
+                   <li> <a>
+                        <i class="fab fa-linkedin"></i>
+                   </a></li>
+                  </ul>
+            </div>
+        </main>
+    </div>
+       
+       
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+       
+     
+
     <script src="app.js"></script>
+    <noscript>
+        <style type="text/css">
+        .wallpaper {
+        animation-name: zoomOut;
+        }
+        .picture {
+        animation-name: dropIn;
+        }
+        </style>
+        </noscript>
 </body>
 </html>
